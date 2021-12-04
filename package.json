@@ -1,0 +1,22 @@
+{
+  "name": "tdewolff-minify",
+  "version": "0.9.0",
+  "author": "Joakim L. Christiansen (https://joakimch.github.io)",
+  "license": "MIT",
+  "type": "module",
+  "main": "source/tdewolff-minify.js",
+  "repository": "github:JoakimCh/tdewolff-minify",
+  "funding": "https://joakimch.github.io/funding.html",
+  "description": "An ES module with an API allowing easy usage of tdewolff's minify within Node.js",
+  "keywords": ["tdewolff", "minify", "javascript", "api"],
+  "files": [
+    "source/*",
+    "minify_license.MIT"
+  ],
+  "scripts": {
+    "install": "node source/minifyDownloader/downloadScript.js"
+  },
+  "engines": {
+    "node": ">=16.8"
+  }
+}
