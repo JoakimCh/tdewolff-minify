@@ -8,7 +8,7 @@ A benchmark of how the Node.js API (using the minify-biniary's stdin/stdout) to 
 ### How to use
 
 To run all tests (against native):
-`node benchmark_versus_native`
+```node benchmark_versus_native```
 
 To run only a stdin / stdout performance test where the files are cached and no files are written:
-`node benchmark_versus_native x`
+```node benchmark_versus_native x```
